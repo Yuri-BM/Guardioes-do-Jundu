@@ -1,0 +1,10 @@
+global.inventario_aberto = true;
+itens = [];
+itens[0] = {nome: "Poção de Vida", sprite: noone, quantidade: 3, descricao: "Restaura 50 HP"};
+itens[1] = {nome: "Chave Dourada", sprite: noone, quantidade: 1, descricao: "Abre portas especiais"};
+item_selecionado = 0;
+janela_largura = 400;
+janela_altura = 300;
+janela_x = (room_width - janela_largura) / 2;
+janela_y = (room_height - janela_altura) / 2;
+depth = -10000;
